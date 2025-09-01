@@ -9,4 +9,6 @@ int main() {
     } else {
         printf("too hot \n");
     }
+    
+    return 0;
 }
