@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-struct Coordinate {
+typedef struct Coordinate {
     int x;
     int y;
     int z;
-} typedef coordinate_t;
+} coordinate_t;
 
 coordinate_t new_coord(int x, int y, int z) {
     coordinate_t coord = {
